@@ -1,0 +1,124 @@
+main {
+    width: 100%;
+    /*min-height: 150px;*/
+}
+
+.first-line {
+    max-width: 60%;
+    box-sizing: border-box;
+    /*outline: 1px solid blue;*/
+    margin: auto;
+    margin-top: 25px;
+    background: rgba(255, 255, 255, 0.81);
+    border-radius: 15px;
+    display: flex;
+    /*grid-template-columns: 2fr 1fr;*/
+}
+
+.first-line__text {
+    border-radius: 15px 0 0 15px;
+    background: white;
+    padding: 40px;
+    font-size: 1.25rem;
+    /*font-style: italic;*/
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.first-line__title {
+    font-weight: bold;
+    font-size: 2.35rem;
+    margin-bottom: 15px;
+}
+
+.first-line__not-title {
+    font-weight: 500;
+}
+
+.we_suggest {
+    display: inline;
+    border-bottom: 4px solid #03A9F4;
+    padding-bottom: 3px;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.first-line__img {
+    position: relative;
+    /*transform: translate(20%);*/
+    display: block;
+    /*margin-left: 30px;*/
+    max-width: 50%;
+    /*max-height: 40%;*/
+    /*aspect-ratio: 1;*/
+    transition: .2s ease-out;
+    z-index: 1;
+}
+
+.first-line__img:hover {
+    transform: scale(103%);
+}
+
+
+
+
+
+
+
+
+
+
+.second-line-wrapper {
+    margin-top: 25px;
+    width: 100%;
+    background: white;
+}
+
+.second-line {
+    outline: 1px solid red;
+    display: flex;
+    justify-content: center;
+    max-width: 60%;
+    /*box-sizing: border-box;*/
+    margin: auto;
+    padding: 40px;
+
+    display: none;
+}
+
+.second-line__text {
+    font-size: 1rem;
+    /*width: 30%;*/
+    display: flex;
+    flex-direction: column;
+    grid-gap: 5px;
+}
+
+.second-line__title {
+    border-bottom: 3px solid #2196F3;
+
+}
+
+.second-line__advantage {
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(3, 169, 244, 0.2);
+    margin: 0;
+    font-weight: 500;
+    /*aspect-ratio: 1;*/
+}
+
+
+
+
+.second-line__img {
+    border-radius: 15px;
+    width: 50%;
+    margin-right: 20px;
+}

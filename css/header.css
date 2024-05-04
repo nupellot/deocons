@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 html, body {
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
+}
+
+body {
+    color: #212121;
+    background: linear-gradient(45deg, #BBDEFB, rgba(33, 150, 243, 0.62));
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 a, a:visited {
@@ -14,13 +22,16 @@ a, a:visited {
 header {
     /*outline: 1px solid red;*/
     width: 100%;
-    height: 65px;
-    background: #e3e3e3;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.9);
+    /*filter: blur(3px);*/
+    /*position: fixed;*/
+    /*z-index: -1;*/
 }
 
 .header__center-block {
-    width: 55%;
-    /*outline: 1px solid blue;*/
+    width: 60%;
+    /*outline: 1px solid red;*/
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -41,7 +52,7 @@ header {
 }
 
 .header__logo {
-    height: 40px;
+    height: 33px;
     /*aspect-ratio: 1;*/
 }
 
