@@ -38,13 +38,15 @@
 
 <div class="second-line-wrapper">
     <div class="second-line">
-        <img src="images/future.webp" alt="" class="second-line__img">
+        <img src="images/ladder.png" alt="" class="second-line__img">
         <div class="second-line__text">
-            <p class="we_suggest">Наши преимущества</p>
-            <p class="second-line__advantage">Собственная производственная база в Подмосковье</p>
-            <p class="second-line__advantage">Быстрая поставка продукции на склад/объект заказчика</p>
-            <p class="second-line__advantage">Сертифицированная продукция, соответствующая требованиям ГОСТ и ТУ</p>
-            <p class="second-line__advantage">Постоянное развитие производства и ассортимента изделий</p>
+            <p class="our_advantages">Наши преимущества:</p>
+            <div class="second-line__advantages">
+                <p class="second-line__advantage">Собственная производственная база в Подмосковье</p>
+                <p class="second-line__advantage">Быстрая поставка продукции на склад/объект заказчика</p>
+                <p class="second-line__advantage">Сертифицированная продукция, соответствующая требованиям ГОСТ и ТУ</p>
+                <p class="second-line__advantage">Постоянное развитие производства и ассортимента изделий</p>
+            </div>
         </div>
     </div>
 </div>
