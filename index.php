@@ -7,10 +7,11 @@
     <title>deocons</title>
     <link href="css/index.css" rel="stylesheet" type="text/css"/>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/third-line.css">
 </head>
 <body>
 
-
+<script src="js/third-line.js" type="text/javascript"></script>
 
 
 <?php include('header.php'); ?>
@@ -35,7 +36,6 @@
     <img src="images/трубы.png" alt="" class="first-line__img">
 </div>
 
-
 <div class="second-line-wrapper">
     <div class="second-line">
         <img src="images/ladder.png" alt="" class="second-line__img">
@@ -51,12 +51,18 @@
     </div>
 </div>
 
+<div class="line third-line">
+    <div class="word-container">
+        <div class="word" data-words="Design,Developing,Digitalizing">D<span class="moving-letters">esign</span></div>
+        <div class="word" data-words="Experience,Enhancing,Engineering">E<span class="moving-letters">xperience</span></div>
+        <div class="word" data-words="Outstanding,Optimizing,Objectively">O<span class="moving-letters">utstanding</span></div>
+    </div>
+</div>
+
 </main>
 
 
 <?php //include('footer.php'); ?>
-
-
 
 
 </body>
