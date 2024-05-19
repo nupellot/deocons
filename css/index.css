@@ -81,7 +81,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 75%;
     /*box-sizing: border-box;*/
     margin: auto;
     padding: 30px;
@@ -90,10 +90,12 @@ main {
 }
 
 .second-line__img {
+    display: block;
     border-radius: 15px;
     /*width: 50%;*/
     /*width: 400px;*/
-    max-height: 105%;
+    height: 400px;
+    /*max-height: 85%;*/
     margin-right: 20px;
 }
 
@@ -103,50 +105,46 @@ main {
     /*width: 50%;*/
     /*margin: 5px;*/
 }
-
 .our_advantages {
     /*display: block;*/
     margin-left: 10px;
     margin-bottom: 400px;
+    /*font-size: 1.5rem;*/
 }
-
 .second-line__advantages {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     /*flex-wrap: wrap;*/
-    grid-gap: 10px;
+    grid-gap: 30px;
     margin-top: 20px;
+    font-size: 1.2rem;
 }
-
 .second-line__advantage {
+    /*outline: 1px solid red;*/
     font-weight: 500;
-    /*font-size: 1rem;*/
-    /*width: 30%;*/
-    /*width: 40%;*/
-    width: 160px;
-    aspect-ratio: 1;
     display: flex;
     text-align: center;
     /*flex-basis: 35%;*/
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
-    padding: 10px 20px 10px 20px;
-    /*flex-direction: column;*/
-    /*border: 1px solid cyan;*/
-    background: rgba(25, 118, 210, 0.13);
-    /*border: 1px solid rgba(25, 118, 210, 0.33);*/
-    border-radius: 15px;
-    /*margin: 10px;*/
-    /*margin-top: 0;*/
-    /*margin: 0;*/
-    /*padding: 10px;*/
+    /*padding: 10px 20px 10px 20px;*/
+    /*padding: 5px;*/
+    flex-direction: column;
+    border-radius: 25px;
     margin: 0;
     transition: 0.2s ease-in-out;
 }
+.second-line__advantage > .icon {
+    width: 50px;
+    aspect-ratio: 1;
+    display: block;
+    /*fill: white;*/
+    margin: 10px;
+}
+
 .second-line__advantage:hover {
-    transform: scale(103%);
-    background: rgba(25, 118, 210, 0.23);
+    transform: scale(105%);
+    /*background: rgba(25, 118, 210, 0.23);*/
 }
 
 
@@ -201,7 +199,7 @@ main {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     background: rgba(255, 255, 255, 0.58);
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 .why-sockets__image {
     max-height: 100%; /* Ограничивает высоту изображения */
