@@ -3,11 +3,9 @@
     font-weight: bold;
     display: flex;
     gap: 1rem;
-    /*z-index: 5;*/
-
-    /*outline: 3px solid red;*/
     transition: 0.5s ease-in-out;
 }
+
 .word {
     position: relative;
     overflow: hidden;
@@ -16,10 +14,7 @@
     display: flex;
     align-items: center;
     min-width: max-content;
-    /*border: 2px solid red;*/
     padding: 5px;
-    /*outline: 3px solid lime;*/
-    /*color: #03A9F4;*/
     transition: 0.5s ease-in-out;
 }
 
@@ -30,18 +25,7 @@
 }
 
 .moving-letters {
+    transform: translateY(0px);
     display: inline-block;
-    transition: 0.5s ease-in-out;
-}
-
-.line {
-    width: 100%;
-    /*border: 5px solid red;*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*padding: 100px;*/
-    padding-top: 55px;
-    padding-bottom: 55px;
     transition: 0.5s ease-in-out;
 }

@@ -152,3 +152,73 @@ main {
 
 
 
+
+.line {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    transition: 0.5s ease-in-out;
+}
+.why-sockets {
+    /*background: #03A9F4;*/
+}
+.line__content {
+    /*outline: 1px solid red;*/
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: stretch;
+    /*padding: 40px;*/
+    border-radius: 15px;
+    /*background: rgba(255, 255, 255, 0.81);*/
+    /*background: white;*/
+}
+.why-sockets__left-part {
+    /*flex: 5;*/
+    flex: 1.75;
+    padding: 40px;
+    /*outline: 1px solid red;*/
+    background: white;
+    border-radius: inherit;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    z-index: 3;
+}
+.why-sockets__right-part {
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*outline: 1px solid red;*/
+    /*flex-shrink: 0;*/
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    max-height: 100%;
+    border-radius: inherit;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background: rgba(255, 255, 255, 0.58);
+    /*overflow: hidden;*/
+}
+.why-sockets__image {
+    max-height: 100%; /* Ограничивает высоту изображения */
+    height: auto; /* Автоматическая высота */
+    width: auto; /* Автоматическая ширина */
+    max-width: 100%; /* Ограничивает ширину изображения */
+    display: block; /* Убирает пробелы вокруг изображения */
+    transform: scale(220%);
+    z-index: 2;
+}
+.why-sockets__title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.why-sockets__text {
+    margin-top: 10px;
+    font-size: 1.25rem;
+}
+
+

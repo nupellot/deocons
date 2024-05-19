@@ -3,6 +3,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const words = document.querySelectorAll('.word');
     words.forEach(word => {
+
         let currentIndex = 0;
         const wordArray = word.getAttribute('data-words').split(',');
         setInterval(() => {
