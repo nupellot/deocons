@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 movingSpan.style.transform = 'translateY(100%)';
                 movingSpan.style.transition = 'none';
                 setTimeout(() => {
-                    movingSpan.style.transition = 'transform 0.5s ease-in-out, width 0.5s ease-in-out';
+                    movingSpan.style.transition = '0.5s ease-in-out';
                     movingSpan.style.transform = 'translateY(0)';
                     movingSpan.style.width = `${newWidth}px`;
                 }, 50);
