@@ -2,6 +2,13 @@ main {
     width: 100%;
     /*min-height: 150px;*/
 }
+.highlighted {
+    background: #03A9F4;
+    border-radius: 5px;
+    color: white;
+    /*font-weight: 600;*/
+    padding: 2px 7px 2px 7px;
+}
 
 .first-line {
     max-width: 60%;
@@ -207,8 +214,12 @@ main {
     width: auto; /* Автоматическая ширина */
     max-width: 100%; /* Ограничивает ширину изображения */
     display: block; /* Убирает пробелы вокруг изображения */
-    transform: scale(220%);
+    transform: scale(160%);
     z-index: 2;
+    transition: .2s ease-out;
+}
+.why-sockets__image:hover {
+    transform: scale(180%);
 }
 .why-sockets__title {
     font-size: 2rem;
@@ -217,6 +228,80 @@ main {
 .why-sockets__text {
     margin-top: 10px;
     font-size: 1.25rem;
+}
+
+
+
+
+
+
+.threaded {
+    background: white;
+}
+.threaded__title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.threaded > .line__content {
+    /*outline: 1px solid red;*/
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /*padding: 40px;*/
+}
+.threaded__types {
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    grid-gap: 40px;
+    border-radius: inherit;
+}
+.threaded__types > * {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    overflow: hidden;
+    /*margin: 20px;*/
+
+}
+.threaded__types * {
+    /*outline: 1px solid red;*/
+    /*display: flex;*/
+    /*border-radius: inherit;*/
+    font-size: 1.3rem;
+    /*overflow: hidden;*/
+}
+.threaded__types img {
+    /*aspect-ratio: 1;*/
+    /*max-width: 500px;*/
+    /*outline: 1px solid red;*/
+    transition: .35s ease-out;
+    /*overflow: hidden;*/
+    border-radius: inherit;
+    width: 100%;
+    background: rgba(187, 222, 251, 0.45);
+}
+.threaded__types img:hover {
+    transform: scale(165%);
+}
+.threaded__middle {
+    width: 1px;
+    background: rgba(0, 0, 0, 0.05);
+    max-height: 100%;
+    /*margin: 10px;*/
+}
+.threaded__type-text {
+    margin-top: 20px;
+    font-weight: 600;
+    z-index: 2;
+    /*border-bottom: 3px solid #03A9F4;*/
 }
 
 

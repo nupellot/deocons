@@ -88,10 +88,29 @@
             </div>
         </div>
         <div class="why-sockets__right-part">
-            <img src="images/stick.png" alt="Муфтовые соединения арматуры" class="why-sockets__image">
+            <img src="images/why-sockets.jpg" alt="Муфтовые соединения арматуры" class="why-sockets__image">
         </div>
     </div>
 </div>
+
+
+<div class="threaded line">
+    <div class="line__content">
+        <div class="threaded__title">Резьбовые муфты</div>
+        <div class="threaded__types">
+            <div class="threaded__left">
+                <img src="images/цилиндр4.png" alt="">
+                <p class="threaded__type-text">Муфты с <a class="highlighted">конической</a> резьбой</p>
+            </div>
+            <div class="threaded__middle"></div>
+            <div class="threaded__right">
+                <img src="images/конус8.png" alt="">
+                <p class="threaded__type-text">Муфты с <a class="highlighted">цилиндрической</a> резьбой</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 </main>
 
