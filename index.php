@@ -111,13 +111,25 @@
     </div>
 </div>
 
+<div class="pressed line">
+    <div class="line__content">
+        <div class="pressed__title">Опрессованные муфты</div>
+        <div class="pressed__types">
+            <img src="images/обжим2.png" alt="">
+        </div>
+        <p class="pressed__text">Фиксация концов стержней арматуры в муфте обеспечивается за счет
+            вдавливания металла муфты между поперечными ребрами арматуры
+        </p>
+    </div>
+</div>
+
 
 </main>
 
 
 
 
-<?php //include('footer.php'); ?>
+<?php include('footer.php'); ?>
 
 <script src="js/third-line.js" type="text/javascript"></script>
 </body>

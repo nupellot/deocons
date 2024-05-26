@@ -235,20 +235,25 @@ main {
 
 
 
-.threaded {
+.threaded, .pressed {
     background: white;
+    padding-top: 0;
+    padding-bottom: 0;
 }
-.threaded__title {
+.threaded__title, .pressed__title {
     font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 40px;
     text-align: center;
+
 }
 .threaded > .line__content {
     /*outline: 1px solid red;*/
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    padding-top: 0;
     /*padding: 40px;*/
 }
 .threaded__types {
@@ -303,5 +308,56 @@ main {
     z-index: 2;
     /*border-bottom: 3px solid #03A9F4;*/
 }
+
+
+.pressed {
+    padding-bottom: 50px;
+}
+.pressed .line__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.pressed__types {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    aspect-ratio: 1.7;
+    height: 50%;
+    background: rgba(187, 222, 251, 0.45);
+    width: 50%;
+    overflow: hidden;
+    border-radius: inherit;
+    /*position: relative;*/
+}
+.pressed__title {
+    margin-top: 20px;
+}
+.pressed img {
+    /*aspect-ratio: 1;*/
+    /*max-width: 500px;*/
+    /*outline: 1px solid red;*/
+    transition: .25s ease-out;
+    transform: scale(120%);
+    /*overflow: hidden;*/
+    /*border-radius: inherit;*/
+    width: 100%;
+    /*background: rgba(187, 222, 251, 0.45);*/
+}
+.pressed img:hover {
+    transform: scale(145%);
+}
+.pressed__text {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+
 
 
