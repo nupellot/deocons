@@ -360,4 +360,49 @@ main {
 }
 
 
+.catalog {
+    /*outline: 1px solid red;*/
+}
+.catalog .line__content {
+    /*outline: 1px solid red;*/
+    padding: 50px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.3rem;
+    background: white;
+    border-radius: 25px;
+    width: auto;
+    transition: 0.2s ease-in-out;
+    /*height: 8rem;*/
+}
+.catalog__text {
+
+}
+.catalog__- {
+    margin: 20px;
+}
+.catalog__file {
+    /*outline: 1px solid red;*/
+    width: 7%;
+    transition: 0.2s ease-in-out;
+    background: white;
+    /*background: transparent;*/
+    border-radius: 10px;
+    box-shadow: none;
+}
+.catalog__file:hover {
+    transform: scale(110%);
+}
+.catalog__svg {
+    width: 100%;
+    background: transparent;
+}
+
+
+
+
+
 

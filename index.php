@@ -124,6 +124,19 @@
 </div>
 
 
+<div class="catalog line">
+    <div class="line__content">
+        <div class="catalog__text">Предлагаем вам ознакомиться<br> с каталогом нашей компании</div>
+        <div class="catalog__-">-</div>
+        <a href="documents/ДЕОКОНС.pdf" target="_blank" class="catalog__file">
+            <img src="images/file.png" alt="" class="catalog__svg">
+        </a>
+    </div>
+</div>
+
+
+
+
 </main>
 
 
